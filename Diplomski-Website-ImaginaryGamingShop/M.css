@@ -1,0 +1,1291 @@
+@font-face {    
+   
+    font-family: 'MojFont';
+    src: url('font/Montserrat-Regular.ttf');
+    font-weight: normal;
+   
+}
+
+body {
+    width: 1920px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url(MSlike/mback3.jpg);
+    background-size:auto;
+    overflow-x: hidden;
+    
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    z-index: 1001;
+    border-bottom: 3px solid #663399;
+    left: 0; 
+    right: 0; 
+}
+
+.jezici {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 0;
+    margin-top: -90px;
+    
+  
+}
+#german-link{
+    cursor: pointer;
+    z-index: 1200;
+}
+#serbian-link {
+    cursor: pointer;
+    z-index: 1200;
+}
+#english-link{
+    cursor: pointer;
+    z-index: 1200;
+}
+.jezik{
+    cursor: pointer;
+}
+
+.jezici img {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    background-color: #000000;
+    margin-right: 20px;
+    transition: transform 0.2s ease;
+    z-index: 1004;
+}
+.jezik{
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+
+.produzni {
+    margin-top: -20px;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background-color: #dbdbdb;
+    border-bottom:3px solid #000000;
+    box-shadow: 0px 0px 9px 5px #663399;
+    
+}
+.produzni p{
+    position: relative;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+   font-family:'MojFont';
+   font-weight: bold;
+   overflow: hidden;
+   font-size: 14px;
+}
+.produzni p a{
+    font-size: 15px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+li {
+    font-family:'MojFont';
+    display: inline-block;
+    margin-top: 65px;
+    margin-block: 40px;
+    margin-left:  10px ;
+    margin-right: 5px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s;
+   
+}
+li a {
+    font-family:'MojFont';
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    
+    border: none;
+    box-shadow:0px 10px 5px 0px rgba(128, 0, 128, 0.5);
+    transition: color 1s ease;
+}
+li:hover{
+   
+    border: none;
+    box-shadow:0px 10px 5px 0px rgba(128, 0, 128, 0.5);
+    transition: color 1s ease;
+}
+header img {
+    width: 100px;
+    height: 100px;
+    animation: bojeLogo 10s linear infinite alternate;
+    
+}
+@keyframes bojeLogo {
+    0%{
+        background-color: black;
+    }
+    100%{
+        background-color: rgba(240, 248, 255, 0.149);
+    }
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 5px;
+    top: 100%;
+    left: -40px;
+    
+    
+}
+
+.dropdown:hover .dropdown-content {
+display: block;   
+}
+
+
+.dropdown-content li {
+
+text-decoration: none;
+display:flex;
+color: #fff; 
+transition: 0.3s; 
+align-items: center;
+align-content: center;
+text-align: center;
+justify-content: center;
+z-index: 1005;
+font-family:'MojFont';
+
+
+}
+.dropdown {
+position:relative;
+
+
+}
+
+
+.dropdown-content li:hover {
+background-color: #555; 
+cursor: pointer;
+
+}
+
+
+#PokretnaSlika {
+    position: relative;
+    width:1920px; 
+    height: 550px;
+    margin-left: 0px;
+    margin-right: 0px; 
+    border: none;
+    background-color: #000000e4;
+    margin-top: 0 auto;
+    border-bottom: 10px solid #dbdbdb;
+  
+}
+
+    
+    #PokretnaSlika img {
+        position: absolute;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        margin-top: 50px;
+        background-size: cover;
+       
+    }
+    
+    #PokretnaSlika img:nth-child(1) {
+        animation: slajd 50s linear infinite  ;
+        animation-delay: 7s;
+    }
+    
+    #PokretnaSlika img:nth-child(2) {
+        animation: slajd 50s linear infinite  ;
+        animation-delay: 14s;
+    }
+    
+    #PokretnaSlika img:nth-child(3) {
+        animation: slajd 50s linear infinite  ;
+        animation-delay: 21s;
+    }
+    
+    #PokretnaSlika img:nth-child(4) {
+        animation: slajd 50s linear infinite  ;
+        animation-delay: 28s;
+    }
+    
+    #PokretnaSlika img:nth-child(5) {
+        animation: slajd 50s linear infinite  ;
+        animation-delay: 35s;
+    }
+
+    
+#PokretnaSlika img:nth-child(6) {
+    animation: slajd 50s linear infinite  ;
+    animation-delay: 42s;
+}
+
+#PokretnaSlika img:nth-child(7) {
+    animation: slajd 50s linear infinite  ;
+    animation-delay: 49s;
+}
+
+#PokretnaSlika img:nth-child(8) {
+    animation: slajd 50s linear infinite  ;
+    animation-delay: 56s;
+}
+
+#PokretnaSlika img:nth-child(9) {
+    animation: slajd 50s linear infinite  ;
+    animation-delay: 63s;
+}
+    
+#PokretnaSlika img:nth-child(10) {
+    animation: slajd 50s linear infinite  ;
+    animation-delay: 70s;
+}
+
+#PokretnaSlika img:nth-child(11) {
+    animation: slajd 50s linear infinite  ;
+    animation-delay: 77s;
+}
+
+#PokretnaSlika img:nth-child(12) {
+    animation: slajd 50s linear infinite  ;
+    animation-delay: 84s;
+}
+
+#PokretnaSlika img:nth-child(13) {
+    animation: slajd 50s linear infinite  ;
+    animation-delay: 91s;
+}
+#PokretnaSlika img:nth-child(14) {
+    animation: slajd 50s linear infinite ;
+    animation-delay: 98s;
+}
+#PokretnaSlika img:nth-child(15) {
+    animation: slajd 50s linear infinite  ;
+    animation-delay: 105s;
+}
+#PokretnaSlika img:nth-child(16) {
+    animation: slajd 50s linear infinite  ;
+    animation-delay: 112s;
+}
+
+#PokretnaSlika img:nth-child(17) {
+    animation: slajd 50s linear infinite  ;
+    animation-delay: 119s;
+}
+#PokretnaSlika img:nth-child(18) {
+    animation: slajd 50s linear infinite ;
+    animation-delay: 126s;
+}
+#PokretnaSlika img:nth-child(19) {
+    animation: slajd 50s linear infinite  ;
+    animation-delay: 133s;
+} 
+#PokretnaSlika img:nth-child(20) {
+    animation: slajd 50s linear infinite  ;
+    animation-delay: 140s;
+} 
+
+
+ 
+    @keyframes slajd {
+        0%, 100% {
+            opacity: 0;
+        }
+        5%, 95% {
+            opacity: 1;
+        }
+    }
+    
+    
+    #slovo {
+        position: absolute;
+        animation: pojava 5s linear 2s;
+        opacity: 0;
+        z-index: 999;
+        width: 100px;
+        height: 100px;
+     
+        
+        
+    }
+    
+    #izlazIzSlova {
+        position: absolute;
+        left: 33%;
+        top: 50%;
+        font-size: 100px;
+        font-weight: bold;
+        font-family: 'MojFont';
+        opacity: 0;
+        color: white;
+        animation: pojava2 5s linear 2s ; 
+        z-index: 999;
+    }
+    
+    @keyframes pojava {
+        0%{
+            opacity: 0;
+        }
+        10%{
+            opacity: 0.2;
+            scale: 0.2;
+        }
+        20%{
+            opacity: 0.8;
+            scale: 0.3;
+        }
+        30%{
+            opacity: 0.3;
+            scale: 0.4;
+        }
+        45%{
+            opacity:0.8;
+            scale: 0.45;
+        }
+        55%{
+            opacity:0.3;
+            scale: 0.5;
+        }
+        70%{
+            opacity:0.8;
+            scale: 0.5;
+        }
+        100%{
+            opacity:1;
+            scale: 0.5;
+        }
+    }
+    
+    @keyframes pojava2  {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+        
+    }
+    60%{
+        opacity: 0.1;
+        
+    }
+    100%{
+        opacity: 1;
+    }
+    }
+    
+    footer {
+        position: absolute;
+        width: 100%;
+        height: 350px;
+        background-color: #663399;
+        border-bottom: 3px solid #663399;
+        left: 0; 
+        right: 0; 
+        margin-top: 0px;
+     
+    }
+    
+    #futerp {
+        text-align: center;
+        color: white;
+        font-family:'MojFont';
+        font-weight:bold;
+        font-size: 30px;
+       margin-top: 150px;
+       
+      
+    }
+    
+
+
+.akcije {
+    background-color: #000000;
+    position: relative; 
+    color: beige;
+    font-size: 25px;
+    width: 1920px;
+    height: 100px;
+    border-bottom: 1px solid white;
+    margin-top: 1px;
+    font-family:'MojFont';
+    text-align: center;
+}
+.material-icons {
+    color: #ffffff; /* Boja ikone */
+    font-size: 44px; /* Veličina ikone */
+    margin-top: 30px;
+    transition: color 0.3s ease; /* Efekat hover-a za boju */
+}
+
+/* Hover efekat za ikonu korpe */
+.material-icons:hover {
+    color: #663399; /* Boja ikone prilikom hovera */
+}
+
+.kartice {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.kartica {
+    overflow: hidden;
+    width: 450px;
+    height: 470px;
+    box-sizing:border-box;
+    border: 5px solid #663399;
+    margin: 22px;
+    margin-left: 96px;
+    text-align: center;
+    display: inline-block;
+    background-color:black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+    
+}
+
+.kartica img {
+    max-width: 100%;
+    height: 50%; 
+    margin-top: 50px;
+    opacity: 1;
+    box-shadow: 10px 10px 10px 10px black;
+ 
+}
+.kartica a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'MojFont';
+}
+
+.kartica p {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 18px;
+    color: white;
+    font-family: 'MojFont';
+   
+}
+.kartica:hover img {
+    transform: scale(0.95); /* Povećavamo sliku na hover */
+}
+
+
+.media-container {
+    position: relative;
+    overflow: hidden;
+    height: 70%; /* Postavljamo visinu kontejnera na istu visinu kao i slika */
+  
+    
+}
+.media-container img {
+   
+    height: 70%; /* Postavljamo visinu kontejnera na istu visinu kao i slika */
+  width: 100%;
+    
+}
+
+.hover-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; 
+    transition: opacity 0.5s; 
+  
+}
+
+.kartica:hover .hover-video {
+    opacity: 1; 
+}
+
+.kartica:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.2s ease;
+   
+    animation: box 0.5s ease-in-out infinite alternate;
+}
+@keyframes box {
+    0% {
+        box-shadow: 0px 0px 10px 5px black;
+       
+    }
+    100% {
+        box-shadow: 0px 0px 10px 5px #663399;
+       
+    }
+}
+
+.kartica button {
+    padding: 10px 20px;
+    background-color: #663399;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.kartica button:hover {
+    background-color: #432d63;
+}
+
+
+.search-bar {
+    z-index: 1009;
+    position: fixed;
+    top: 20px;
+    margin-left: 110px;
+    width: 440px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 12px 20px;
+    box-shadow: 0 7px 20px rgb(225, 1, 255);
+    overflow: hidden;
+  
+}
+
+
+
+.search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #545454;
+    background-color: transparent;
+    
+}
+
+.search-bar .search-button {
+    background-color: #663399;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative; 
+    font-size: 16px;
+}
+
+
+
+.kamere {
+    width: 1900px;
+    height: 750px;
+    position: relative; 
+    overflow: hidden;
+    margin-top: 100px; 
+}
+
+
+.kameralevo {
+    width:1000px;
+    height: 750px;
+    float: left;
+    background-size: cover;
+    background-image: url('MSlike/SlikaLevo.jpg');
+}
+.kameradesno{
+    width: 900px;
+    height: 750px;
+    overflow: hidden;
+    background-color: #00000091;
+}
+.kameradesno span {
+    color: #663399;
+    font-family: 'MojFont';
+
+}
+.kameradesno p{
+    
+color:white;
+font-weight: bold;
+font-size:30px;  
+margin-top: 200px;
+text-align: left;
+text-align: center;
+padding: 40px;
+font-family:'MojFont';
+}
+.video-container {
+    position: relative; 
+    width: 1900px; 
+    height:600px; 
+   
+  }
+  
+  video {
+    position:relative; 
+    width: 100%; 
+    height:100%; 
+    object-fit: cover;
+    
+  }
+
+.prvi {
+    width: 1900px;
+    height: 900px;
+    position: relative;
+    overflow: hidden;
+    margin-top:0 auto; 
+    background-size: cover;
+    background-image: url('MSlike/Prva1.png');
+   
+}
+.prvi p{
+    font-size: 50px;
+    color: white;
+    font-family: 'MojFont';  
+    margin-top: 500px;
+    margin-left: 500px;
+    margin-right: 0 auto;
+   
+   
+}
+.prvi a{
+    text-decoration: none;
+    color: green;
+}
+.prvi a:hover {
+  
+    background-color: #ababab57;
+    opacity: 0.8;
+    transition: 0.2s ease;
+    color: lime;
+
+}
+.drugi {
+    width: 1900px;
+    height: 900px;
+    position: relative;
+    overflow: hidden;
+    margin-top:0 auto; 
+    background-size: cover;
+    background-image: url('MSlike/drugaSlika.png');
+}
+.drugi p{
+    font-size: 50px;
+    color: white;
+    font-family:'MojFont';
+    margin-left: 200px;
+    margin-right: 0 auto;
+    margin-top: 0 auto;
+   
+   
+}
+.drugi a{
+    text-decoration: none;
+    color: green;
+}
+.drugi a:hover {
+  
+background-color: #ababab57;
+opacity: 0.8;
+transition: 0.2s ease;
+color: lime;
+
+}
+.treci{
+    width: 1900px;
+    height: 900px;
+    position: relative;
+    overflow: hidden;
+    margin-top:0 auto; 
+    background-size: cover;
+    background-image: url('MSlike/Treci.jpg');
+    background-size: cover;
+    background-position-y: -300px;
+}
+
+.treci p {
+    font-size: 50px;
+    color: white;
+    font-family:'MojFont';
+    margin-right: 0 auto;
+    margin-top: 680px;
+    text-align: center;
+    background-color: #00000088;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.treci p a {
+text-decoration: none;
+text-transform: scale(1.1);
+color: greenyellow;
+}
+.treci a:hover {
+    
+    background-color: #ababab23;
+opacity: 0.8;
+transition: 0.2s ease;
+color: lightblue;
+}
+@media only screen and (max-width: 1024px) {
+
+    .proizvodi-container {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .jezici {
+        margin-top: -90px;
+        margin-right: 20px;
+    }
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    header {
+        height: 80px; 
+    }
+    .search-bar {
+        display: none;
+    }
+    
+     .produzni {
+        margin-top: -35px;
+        height: 40px; 
+    }
+    .produzni p {
+        font-size: 10px;
+    }
+    .produzni p a {
+        font-size: 12px;
+        font-family: 'MojFont';
+    }
+    header ul{
+        margin-right: 15px;
+    }
+
+   header ul li {
+        margin-top: 45px; 
+        font-size: 14px; 
+        
+    }
+
+    #PokretnaSlika {
+        height: 400px; 
+        border-bottom: 5px solid #dbdbdb; 
+        width:100%;
+        
+    }
+    .akcije {
+        width: 100%;
+        height: 70px;
+    }
+    .akcije ul {
+       
+        display: inline-flex;
+        text-align: center;
+        z-index: 1000;
+        margin-right: 450px;
+    }
+  
+    .akcije li {
+        
+        font-size: 12px; 
+        text-align: center;
+        
+    }
+     .material-icons {
+        color: #ffffff; /* Boja ikone */
+        font-size: 30px; /* Veličina ikone */
+        margin-top: 20px;
+        transition: color 0.3s ease; /* Efekat hover-a za boju */
+    }
+    
+    /* Hover efekat za ikonu korpe */
+    .material-icons:hover {
+        color: #663399; /* Boja ikone prilikom hovera */
+    }
+    #slovo {
+        position: absolute;
+        animation: pojava 5s linear 2s;
+        opacity: 0;
+        z-index: 999;
+        width: 50px;
+        height: 50px;  
+    }
+ 
+    #izlazIzSlova {
+        position: absolute;
+        left: 33%;
+        top: 50%;
+        font-size: 60px;
+        font-weight: bold;
+        opacity: 0;
+        font-family:'MojFont';
+        color: white;
+        animation: pojava2 5s linear 2s ; 
+        z-index: 999;
+    }
+    .kartice {
+        width: 90%;
+       
+    }
+    .kartica img{
+        margin-top: 10px;
+    }
+
+    .kartica {
+        width:250px;
+        height: 250px;
+        margin-left: 1.5%;
+        display: inline-block;
+        position:relative;
+    }
+    .kartica h3{
+        font-size: 12px;
+        margin-top: 10px;
+       
+    }
+    .kartica p {
+        margin-top: 5px;
+        font-size: 12px;
+       margin-left: 1%;
+       margin-right: 1%;
+    }
+    .kartica button {
+        margin-top: 10px;
+        font-size: 10px;
+        width: 90px;
+        height: 40px;
+       margin-left: 1%;
+       margin-right: 1%;
+    }
+    .proizvodi-container {
+        height: 50%;
+        width: 0 auto;
+        overflow: hidden;
+    }
+
+    
+    .kamere {
+        width: 100%;
+        height: 500px; /* Adjust the height as needed */
+        margin-top: 100px; /* Adjust the margin-top as needed */
+    }
+    
+    .kameralevo {
+        width: 50%;
+        height: 500px; 
+        background-size: cover;
+    }
+    
+    .kameradesno {
+        
+        width: 50%;
+        height: 500px; 
+        background-color: #00000093;
+        
+    }
+    
+    .kameradesno p {
+                
+        color:white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 20px; 
+        margin-top: 10%;
+        font-family: 'MojFont';
+    }
+    
+
+    .video-container {
+        width: 100%;
+        height: 400px; 
+        margin-top: 0px; 
+    }
+    
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    }
+    
+    
+    .prvi,
+    .drugi,
+    .treci {
+        width: 100%;
+        height: 350px; 
+        position: relative;
+        overflow: hidden;
+        background-size: cover;
+    }
+    
+    
+   
+    .prvi p{
+        font-size: 30px; 
+        color: white;
+        margin-left: 100px;
+        font-family:'MojFont';
+        text-align: center;
+        margin-top: 150px; 
+    }
+    .drugi p {
+        font-size: 30px; 
+        color: white;
+        margin-left: 10px;
+        font-family:'MojFont';
+        text-align: center;
+        margin-top: 0px; 
+    }
+    .treci p {
+        font-size: 30px; 
+        color: white;
+        margin-left: 10px;
+        font-family:'MojFont';
+        text-align: center;
+        margin-top: 0px; 
+    }
+    
+    .prvi a,
+    .drugi a {
+        text-decoration: none;
+        color: green;
+    }
+    
+    .prvi a:hover,
+    .drugi a:hover {
+        background-color: #ababab57;
+        opacity: 0.8;
+        transition: 0.2s ease;
+        color: lime;
+    }
+ #futerp{
+    font-size: 30px;
+
+ }
+}
+@media only screen and (max-width: 480px) {
+    .jezici {
+        position: relative;
+        margin-top: -35px;
+        margin-left: 280px;
+    }
+    .jezici img {
+        width: 15px;
+        height: 15px;
+    }
+    .proizvodi-container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .search-bar {
+        display: none;
+    }
+    .logo img{
+    
+        width: 100px;
+        height: 70px;
+    }
+
+    .produzni {
+        margin-top: 10px;
+        height: 40px; 
+        overflow: hidden;
+    }
+    .akcije:hover {
+        display: none;
+    }
+    .akcije ul li {
+       margin-right: -430px;
+       margin-top: 30px;
+    }
+    .material-icons {
+        color: #ffffff; /* Boja ikone */
+        font-size: 24px; /* Veličina ikone */
+        margin-top: 10px;
+        transition: color 0.3s ease; /* Efekat hover-a za boju */
+    }
+    
+    /* Hover efekat za ikonu korpe */
+    .material-icons:hover {
+        color: #663399; /* Boja ikone prilikom hovera */
+    }
+    
+
+    .produzni p {
+        font-size: 8px; 
+        
+    }
+
+    .produzni p a {
+        font-size: 10px;
+    }
+
+    header ul li {
+        margin-top: 30px;
+        font-size: 12px; 
+    }
+
+    #PokretnaSlika {
+        height: 250px;
+        border-bottom: 3px solid #dbdbdb;
+        width: 100%;
+    }
+     #slovo {
+        position: absolute;
+        animation: pojava 5s linear 2s;
+        opacity: 0;
+        z-index: 999;
+        width: 30px;
+        height: 30px;
+        
+        
+        
+    }
+    
+    #izlazIzSlova {
+        position: absolute;
+        left: 33%;
+        top: 50%;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: url('font/Gorgom-Regular-MajerGaming.ttf');
+        opacity: 0;
+        color: white;
+        animation: pojava2 5s linear 2s ; 
+        z-index: 999;
+    }
+
+    .akcije {
+        width: 100%;
+        height: 50px; 
+    }
+
+    .akcije ul {
+        margin-top:-5px;
+        margin-left: 5px; 
+        display: inline;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    .akcije li {
+        margin-right: 10px; 
+        font-size: 10px; 
+        text-align: center;
+    }
+
+    #slovo {
+        width: 30px;
+        height: 30px; 
+    }
+
+    #izlazIzSlova {
+        left: 25%; 
+        top: 70%; 
+        font-size: 30px;
+    }
+  
+    .kartice {
+        width: 90%;
+        margin-left: 5%;
+       
+    }
+    
+    .kartica img {
+        margin-top: 10px;
+    }
+    
+    .kartica {
+        width: 100%; 
+        height: auto; 
+        margin-left: 0; 
+        display: block; 
+        position: relative;
+    }
+    
+    
+    .kartica p {
+        margin-top: 5px;
+        font-size: 14px; 
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+    .kartica button {
+        margin-top: 10px;
+        font-size: 12px; 
+        width: 90px;
+        height: 50px;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-weight: bold;
+    }
+   
+    .kamere{
+        margin-top:100px;
+        
+    }
+    .kameradesno p{
+        font-size: 14px;
+        margin-top: 60px;
+        
+    }
+
+    .video-container {
+        width: 100%;
+        height: 250px; 
+        margin-top: 0px;
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .prvi,
+    .drugi,
+    .treci {
+        height: 200px; 
+        
+    }
+    .prvi p{
+        margin-top: 60px;
+        font-size: 15px; 
+        
+    }
+   
+    .drugi p,
+    .treci p {
+        font-size: 15px; 
+        margin-left: 10px; 
+        margin-right: 10px;
+        margin-top: 0;
+    }
+
+    #futerp {
+        font-size: 18px; 
+        margin-top: 30px;
+
+    }
+    footer {
+        
+        width: 100%;
+        height: 100px;
+       
+    }
+    .dropdown {
+        margin: 0;
+    }
+    
+    header ul li:nth-child(1), 
+    header ul li:nth-child(2), 
+    header ul li:nth-child(3)
+    header ul li:nth-child(4) {
+        margin-right:15px;
+    }
+
+ 
+    .hamburger {
+        margin-top: -60px;
+        margin-left: 200px;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+      
+    }
+    
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 3px 0;
+        transition: 0.4s;
+       
+    }
+    
+    header ul {
+        display: none; 
+        position: absolute;
+        top: 100px;
+        right: 30px;
+        background-color: #111;
+        flex-direction: column;
+       
+    }
+    
+    header ul li {
+        margin: 10px;
+        font-size: 15px;
+        margin-right: 15px;
+        text-align: right;
+    
+    
+    }
+   
+    nav ul {
+        display: none;
+    }
+    
+    nav ul.show {
+        display: block;
+    }
+
+    .hamburger ~ nav ul li .dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1600px) {
+    body {
+        zoom: 0.67; 
+    }
+  
+}

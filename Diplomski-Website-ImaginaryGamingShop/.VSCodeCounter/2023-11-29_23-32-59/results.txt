@@ -1,0 +1,91 @@
+Date : 2023-11-29 23:32:59
+Directory : c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831
+Total : 58 files,  9800 codes, 8 comments, 1338 blanks, all 11146 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| HTML       |         42 |      5,721 |          0 |        534 |      6,255 |
+| CSS        |          7 |      4,004 |          8 |        792 |      4,804 |
+| JavaScript |          9 |         75 |          0 |         12 |         87 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                 | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                    |         58 |      9,800 |          8 |      1,338 |     11,146 |
+| . (Files)                                                                                                            |          5 |      1,605 |          1 |        299 |      1,905 |
+| Href1-ISTORIJA                                                                                                       |          5 |        955 |          0 |        140 |      1,095 |
+| Href2-LOKACIJE                                                                                                       |          5 |        838 |          1 |        131 |        970 |
+| Href3-ZAPOSLENI                                                                                                      |          5 |      1,084 |          0 |        181 |      1,265 |
+| Href4-PROIZVODI                                                                                                      |         19 |      2,778 |          6 |        453 |      3,237 |
+| Href5-OstaleInformacije                                                                                              |          5 |        932 |          0 |        103 |      1,035 |
+| JeziciProizvodi                                                                                                      |         14 |      1,608 |          0 |         31 |      1,639 |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                             | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href1-ISTORIJA\istorija.css                    | CSS        |        551 |          0 |        104 |        655 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href1-ISTORIJA\istorija.html                   | HTML       |        132 |          0 |         12 |        144 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href1-ISTORIJA\istorija.js                     | JavaScript |          7 |          0 |          1 |          8 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href1-ISTORIJA\istorijaEng.html                | HTML       |        132 |          0 |         10 |        142 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href1-ISTORIJA\istorijaGer.html                | HTML       |        133 |          0 |         13 |        146 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href2-LOKACIJE\LokacijeEng.html                | HTML       |        117 |          0 |         12 |        129 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href2-LOKACIJE\lokacije.css                    | CSS        |        481 |          1 |         86 |        568 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href2-LOKACIJE\lokacije.html                   | HTML       |        116 |          0 |         20 |        136 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href2-LOKACIJE\lokacije.js                     | JavaScript |          7 |          0 |          1 |          8 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href2-LOKACIJE\lokacijeGer.html                | HTML       |        117 |          0 |         12 |        129 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href3-ZAPOSLENI\zaposleni.css                  | CSS        |        649 |          0 |        143 |        792 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href3-ZAPOSLENI\zaposleni.html                 | HTML       |        143 |          0 |         16 |        159 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href3-ZAPOSLENI\zaposleni.js                   | JavaScript |          7 |          0 |          1 |          8 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href3-ZAPOSLENI\zaposleniEng.html              | HTML       |        143 |          0 |         11 |        154 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href3-ZAPOSLENI\zaposleniGer.html              | HTML       |        142 |          0 |         10 |        152 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\Porucivanje.css                | CSS        |        275 |          4 |         55 |        334 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\Porucivanje.js                 | JavaScript |         11 |          0 |          1 |         12 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\PorucivanjeEng.js              | JavaScript |         11 |          0 |          1 |         12 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\PorucivanjeGer.js              | JavaScript |         11 |          0 |          1 |         12 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\PorucivanjeProizvodEng.html    | HTML       |        127 |          0 |          4 |        131 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\PorucivanjeProizvodGer.html    | HTML       |        127 |          0 |          4 |        131 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\PorucivanjeProizvodi.html      | HTML       |        127 |          0 |         16 |        143 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\proizvodStolice.html           | HTML       |        104 |          0 |         14 |        118 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\proizvodi.css                  | CSS        |        570 |          2 |        113 |        685 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\proizvodi.html                 | HTML       |        236 |          0 |         46 |        282 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\proizvodi.js                   | JavaScript |          7 |          0 |          1 |          8 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\proizvodiEng.html              | HTML       |        235 |          0 |         42 |        277 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\proizvodiGer.html              | HTML       |        231 |          0 |         41 |        272 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\proizvodiKucista.html          | HTML       |        103 |          0 |         14 |        117 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\proizvodiMonitori.html         | HTML       |        115 |          0 |         20 |        135 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\proizvodiPodloge.html          | HTML       |        114 |          0 |         19 |        133 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\proizvodimis.html              | HTML       |        124 |          0 |         21 |        145 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\proizvodislusalice.html        | HTML       |        117 |          0 |         16 |        133 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href4-PROIZVODI\proizvoditastature.html        | HTML       |        133 |          0 |         24 |        157 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href5-OstaleInformacije\ostaleinfo.js          | JavaScript |          7 |          0 |          4 |         11 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href5-OstaleInformacije\ostaleinfoEng.html     | HTML       |        161 |          0 |          6 |        167 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href5-OstaleInformacije\ostaleinfoGer.html     | HTML       |        161 |          0 |          7 |        168 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href5-OstaleInformacije\ostaleinformacije.css  | CSS        |        442 |          0 |         81 |        523 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\Href5-OstaleInformacije\ostaleinformacije.html | HTML       |        161 |          0 |          5 |        166 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\JeziciProizvodi\ProizvodiKucistaENG.html       | HTML       |        103 |          0 |          1 |        104 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\JeziciProizvodi\ProizvodiKucistaGer.html       | HTML       |        103 |          0 |          2 |        105 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\JeziciProizvodi\ProizvodiMisENG.html           | HTML       |        123 |          0 |          1 |        124 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\JeziciProizvodi\ProizvodiMisGer.html           | HTML       |        123 |          0 |          2 |        125 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\JeziciProizvodi\ProizvodiMonitorENG.html       | HTML       |        114 |          0 |          1 |        115 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\JeziciProizvodi\ProizvodiMonitoriGer.html      | HTML       |        114 |          0 |          2 |        116 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\JeziciProizvodi\ProizvodiPodlogaENG.html       | HTML       |        114 |          0 |          2 |        116 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\JeziciProizvodi\ProizvodiPodlogeGer.html       | HTML       |        112 |          0 |          2 |        114 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\JeziciProizvodi\ProizvodiSlusaliceENG.html     | HTML       |        116 |          0 |          2 |        118 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\JeziciProizvodi\ProizvodiSlusaliceGer.html     | HTML       |        116 |          0 |          2 |        118 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\JeziciProizvodi\ProizvodiStoliceENG.html       | HTML       |        103 |          0 |          3 |        106 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\JeziciProizvodi\ProizvodiStoliceGer.html       | HTML       |        103 |          0 |          2 |        105 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\JeziciProizvodi\ProizvodiTastaturaENG.html     | HTML       |        132 |          0 |          7 |        139 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\JeziciProizvodi\ProizvodiTastatureGer.html     | HTML       |        132 |          0 |          2 |        134 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\M.css                                          | CSS        |      1,036 |          1 |        210 |      1,247 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\M.html                                         | HTML       |        191 |          0 |         36 |        227 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\M.js                                           | JavaScript |          7 |          0 |          1 |          8 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\MEng.html                                      | HTML       |        185 |          0 |         26 |        211 |
+| c:\Users\Majus\Desktop\GejmingProdavinica-MajerDiplomskiPOPRAVKA1.831\MGer.html                                      | HTML       |        186 |          0 |         26 |        212 |
+| Total                                                                                                                |            |      9,800 |          8 |      1,338 |     11,146 |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

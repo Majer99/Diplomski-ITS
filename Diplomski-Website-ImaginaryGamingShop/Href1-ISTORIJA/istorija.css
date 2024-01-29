@@ -1,0 +1,654 @@
+@font-face {    
+    font-family: 'MojFont';
+    src: url('../font/Montserrat-Regular.ttf');
+    font-weight: normal;
+   
+}
+
+body {
+    width: 1920px;
+    max-width: 100%;
+    margin: 0 auto;
+    transform-origin: center top; /* Set the transformation origin to the top center */
+    background-color: #000000;
+    background-size: cover;
+    overflow-x: hidden;
+    
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    z-index: 1001;
+    border-bottom: 3px solid #663399;
+    left: 0; 
+    right: 0; 
+}
+
+.jezici {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 0;
+    margin-top: -90px;
+    
+  
+}
+.jezik{
+    cursor: pointer;
+}
+#german-link{
+    cursor: pointer;
+    z-index: 1200;
+}
+#serbian-link {
+    cursor: pointer;
+    z-index: 1200;
+}
+#english-link{
+    cursor: pointer;
+    z-index: 1200;
+}
+
+.jezici img {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    background-color: #000000;
+    margin-right: 20px;
+    transition: transform 0.2s ease;
+    z-index: 1004;
+}
+.jezik{
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+
+.produzni {
+    margin-top: -20px;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background-color: #dbdbdb;
+    border-bottom:3px solid #000000;
+    box-shadow: 0px 0px 9px 5px #663399;
+    
+}
+.produzni p{
+    position: relative;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+    font-family: 'MojFont';
+   font-weight: bold;
+   overflow: hidden;
+   font-size: 14px;
+}
+.produzni p a{
+    font-size: 15px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+li {
+    font-family: 'MojFont';
+    display: inline-block;
+    margin-top: 65px;
+    margin-block: 40px;
+    margin-left:  10px ;
+    margin-right: 5px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s;
+   
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+    
+    border: none;
+    box-shadow:0px 10px 5px 0px rgba(128, 0, 128, 0.5);
+    transition: color 1s ease;
+}
+li a:hover{
+   
+    border: none;
+    box-shadow:0px 10px 5px 0px rgba(128, 0, 128, 0.5);
+    transition: color 1s ease;
+}
+header img {
+    width: 100px;
+    height: 100px;
+    animation: bojeLogo 10s linear infinite alternate;
+    
+}
+@keyframes bojeLogo {
+    0%{
+        background-color: black;
+    }
+    100%{
+        background-color: rgba(240, 248, 255, 0.149);
+    }
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 5px;
+    top: 100%;
+    left: -40px;
+    
+    
+}
+
+.dropdown:hover .dropdown-content {
+display: block;   
+}
+
+
+.dropdown-content li {
+
+text-decoration: none;
+display:flex;
+color: #fff; 
+transition: 0.3s; 
+align-items: center;
+align-content: center;
+text-align: center;
+justify-content: center;
+z-index: 1005;
+
+
+
+}
+.dropdown {
+position:relative;
+
+
+}
+
+
+.dropdown-content li:hover {
+background-color: #555; 
+cursor: pointer;
+
+}
+
+.search-bar {
+    z-index: 1009;
+    position: fixed;
+    top: 20px;
+    margin-left: 110px;
+    width: 440px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 12px 20px;
+    box-shadow: 0 7px 20px rgb(225, 1, 255);
+    overflow: hidden;
+  
+}
+
+
+
+.search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #545454;
+    background-color: transparent;
+    
+}
+
+.search-bar .search-button {
+    background-color: #663399;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative; 
+    font-size: 16px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.gif1 {
+    box-shadow: 0px 10px 30px 2px #663399;
+    position:relative;
+    top: 140px;
+    border: 1px solid rgb(45, 45, 45);
+    border-radius: 3%;
+    width: 100%;
+    height: 700px;
+    background-image: url(../MSlike/Istorija.gif);
+    background-size: cover;
+    background-position-x:50px ;
+    background-position-y:center ;
+}
+main {
+    margin-top: 160px;
+    width: 100%;
+    height: 300px;
+    background-color: #000000;
+}
+h1{
+    padding-top: 30px;
+    color: #663399;
+    font-size: 72px;  
+    text-align: center;
+    font-family: 'MojFont';
+}
+#oNama1 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: -45px;
+    text-align: center;
+    font-family: 'MojFont';
+    font-weight: bold;
+}
+#oNama2 {
+    color:#AEAEAE;
+    font-size: 18px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'MojFont';
+   
+}
+.prvaSlika {
+    position:relative;
+    width: 100%;
+    height: 470px;
+    background-color: black;
+    background-image: url(../MSlike/Istorijaslika1.png);
+    background-size: cover;
+    background-position-y:-120px;
+}
+#oNama3 {
+    color:#AEAEAE;
+    font-size: 18px;
+    margin-top: 80px;
+    text-align: justify;
+    margin-bottom: 50px;
+    padding: 10px;
+    line-height: 1.6;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'MojFont';   
+}
+#oNama3 br{
+margin-bottom: 20px;
+}
+.boja1 {
+    width: 950px;
+    margin-right: 25%;
+    margin-left: 25%;
+    height:0 auto;
+    background-color: #222222;
+    margin-bottom: 100px;
+}
+
+.boja1 h2 {
+    color: #663399;
+    text-align: center;
+    padding: 30px 0px 20px 25px;
+    font-family: 'MojFont';
+    font-size: 42px;
+    background-color: #00000092;
+    box-shadow: 0px 0px 20px 0px #AEAEAE;
+}
+
+
+
+.godina p {
+    word-spacing: none;
+    font-size: 16px;
+    color:#ABABAB ;
+    margin-right: 10%;
+    font-family: 'MojFont';
+    margin-left: 10%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.godina:nth-child(7){
+    padding-bottom: 20px;
+}
+.godina h3 {
+    background-color: #333333;
+    border: 1px solid #444444;
+    border-radius: 10px;
+    margin-right: 0 auto;
+    text-align: center;
+    padding: 5px;
+    color: #FFFFFF;
+    font-family: 'MojFont';
+    font-weight: bold;
+    font-size: 28px;
+}
+ 
+footer {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background-color: #6633998d;
+    border-bottom: 3px solid #663399;
+    left: 0; 
+    right: 0; 
+    margin-top: 0px;
+ 
+}
+
+#futerp {
+    text-align: center;
+    color: white;
+    font-weight:bold;
+     font-family: 'MojFont';
+    font-size: 30px;
+   margin-top: 100px;
+  
+  
+}
+@media (max-width: 1024px) {
+   
+    main { 
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+       
+    }
+    .prvaSlika{
+           
+            margin-top: 200px;
+            margin-left: -150px;
+            width: 100%;
+            height: 470px; 
+          
+        }
+
+    .search-bar {
+        display: none;
+    }
+
+    main h1,
+    main p,
+    main .boja1 {
+        max-width: 90%;
+    }
+
+    .jezici {
+        margin-top: -90px;
+        margin-right: 20px;
+    }
+   
+   
+    .produzni p a {
+        font-size: 9px;
+    }
+ 
+
+    header ul {
+        font-size: 14px;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    header li {
+        font-size: 14px;
+        margin-left: 6px;
+    }
+   
+    header li:hover .dropdown-content {
+        display: block;
+        margin-top: 0;
+        margin: 0;
+        font-size: 10px;
+        
+    }
+   
+    
+    .dropdown-content {
+        height: auto;
+        width: 10px;
+    }
+    .search-bar {
+        top: 20px;
+        margin-left: 100px;
+        width: 10%;
+        height: 3%;
+    }
+
+    .boja1 {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .logo {
+        margin: 0;
+        opacity: 1;
+    }
+
+    .nav-menu {
+        background: #fff;
+        position: relative;
+        top: 0;
+        left: -76%;
+        right: 0;
+    }
+
+   
+    .produzni p {
+        font-size: 11px;
+        overflow: hidden;
+        text-align: center;
+        padding: 5px;
+        margin: 0;
+    }
+
+    
+    footer {
+        margin-top: 100px;
+        position: relative;
+    }
+    #futerp {
+        font-size: 25px;
+    }
+    #oNama3{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        width: 100%; 
+    }
+
+    .jezici {
+        position: relative;
+        margin-top: -50px;
+        margin-right: -5px;
+    }
+    .jezici img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .produzni {
+        display: none; 
+    }
+
+    .search-bar {
+        position: relative; 
+        top: 0;
+        left: 0;
+        margin: 10px; 
+        width: 90%; 
+    }
+
+    .search-bar input[type="text"] {
+        width: 70%; 
+    }
+
+    .search-bar .search-button {
+        margin-left: 10px; 
+    }
+
+    .gif1 {
+        top: 60px; 
+        height: 300px; 
+    }
+
+    main {
+        margin-top: 80px; 
+    }
+
+    h1 {
+        font-size: 36px; 
+    }
+
+    #oNama1 {
+        font-size: 16px; 
+        margin-top: -30px;
+    }
+
+    #oNama2 {
+        font-size: 16px; 
+        margin-top: 30px;
+    }
+
+    .prvaSlika {
+        margin-top: 0;
+        width: 100%;
+        height: 300px; 
+    }
+
+    #oNama3 {
+        font-size: 16px; 
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .boja1 {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+
+    .boja1 h2 {
+        font-size: 24px;
+    }
+
+    .godina p {
+        font-size: 14px; 
+        margin-top: 10px;
+        margin-bottom: 10px;
+       
+    }
+
+    .godina h3 {
+        font-size: 20px; 
+    }
+
+    footer {
+        height: 150px; 
+        margin-top: 20px; 
+    }
+
+       #futerp{
+            font-size: 15px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        header ul li:nth-child(1), 
+        header ul li:nth-child(2), 
+        header ul li:nth-child(3)
+        header ul li:nth-child(4) {
+            margin-right:15px;
+        }
+    
+        .hamburger {
+            margin-top: -60px;
+            margin-left: 200px;
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+        }
+        
+        .bar {
+            width: 25px;
+            height: 3px;
+            background-color: #fff;
+            margin: 3px 0;
+            transition: 0.4s;
+        }
+        
+        header ul {
+            display: none;
+            position: absolute;
+            top: 100px;
+            right: 30px;
+            background-color: #111;
+            flex-direction: column;
+            
+        }
+        
+        header ul li {
+            margin: 10px;
+            font-size: 15px;
+            margin-right: 15px;
+            text-align: right;
+        
+            
+        }
+       
+        nav ul {
+            display: none;
+        }
+        
+        nav ul.show {
+            display: block;
+        }
+    
+        .hamburger ~ nav ul li .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    .gif1 {
+        background-position-x:20px ;
+    }
+   
+}
+@media only screen and (min-width: 1300px) and (max-width: 1600px) {
+    body {
+        zoom: 0.67; 
+    }
+}
+
+
+

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+
+    <link rel="stylesheet" href="Porucivanje.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>eM SHOP PORUČITE</title>
+</head>
+<body>
+    <header>
+        
+        <div class="header-container">
+            <div class="logo">
+                <a href="../M.html">
+                <img src="../MSlike/Logo2.png" alt="Your Logo">
+            </a>
+            </div>
+            <div class="hamburger" id="hamburger-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search..."/>
+                <button type="submit" class="search-button">
+                    Search
+                </button>
+            </div>
+            <div class="jezici">
+                <a href="../Href4-PROIZVODI/PorucivanjeProizvodGer.html" id="german-link">
+                    <img src="../IconZemlje/Nemacka.png" id="german" class="jezik" alt="Deutsche Sprache">
+                </a>
+                <a href="../Href4-PROIZVODI/PorucivanjeProizvodEng.html" id="english-link">
+                    <img src="../IconZemlje/UK.png" id="english" class="jezik" alt="Englische Sprache">
+                </a>
+                <a href="../Href4-PROIZVODI/PorucivanjeProizvodi.html" id="serbian-link">
+                    <img src="../IconZemlje/Srbija.png" id="serbian" class="jezik" alt="Serbische Sprache">
+                </a>
+            </div>
+          
+            <div class="language-text">
+                <p id="german-text" class="language-content"></p>
+                <p id="english-text" class="language-content"></p>
+                <p id="serbian-text" class="language-content"></p>
+            </div>
+            <div class="produzni">
+                <p>"Pridružite se M nagradnom programu da otključate bonus M poene, smanjenu minimalnu potrošnju za besplatnu dostavu, ekskluzivne pogodnosti i još mnogo toga. Pridružite se <a href="../Href5-OstaleInformacije/ostaleinformacije.html" style="color: #007e17;"><b>SADA</b></a>"</p>
+            </div>
+            <nav>
+                <ul>
+                    <li class="dropdown">O nama
+                        <ul class="dropdown-content">
+                            <li><a href="../Href1-ISTORIJA/istorija.html">Istorija</a></li>
+                            <li><a href="../Href3-ZAPOSLENI/zaposleni.html">Zaposleni</a></li>
+
+                        
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="../Href2-LOKACIJE/lokacije.html">Lokacije</a>
+                        <ul class="dropdown-content">
+                            <li><a href="../Href2-LOKACIJE/lokacije.html">SC Usce</a></li>
+                            <li><a href="../Href2-LOKACIJE/lokacije.html">SC Galerija</a></li>
+                            <li><a href="../Href2-LOKACIJE/lokacije.html">SC BEO</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="../Href4-PROIZVODI/proizvodi.html">Proizvodi</a>
+                        <ul class="dropdown-content">
+                            <li><a href="../Href4-PROIZVODI/proizvodislusalice.html">Slusalice</a></li>
+                            <li><a href="../Href4-PROIZVODI/proizvodimis.html">Misevi</a></li>
+                            <li><a href="../Href4-PROIZVODI/proizvoditastature.html">Tastature</a></li>
+                            <li><a href="../Href4-PROIZVODI/proizvodiPodloge.html">Podloge</a></li>
+                            <li><a href="../Href4-PROIZVODI/proizvodiMonitori.html">Monitori</a></li>
+                            <li><a href="../Href4-PROIZVODI/proizvodStolice.html">Stolice</a></li>
+                            <li><a href="../Href4-PROIZVODI/proizvodiKucista.html">Kućišta</a></li>
+                          
+                        </ul>
+                    </li>
+                </a>
+                
+                <li><a href="../Href5-OstaleInformacije/ostaleinformacije.html">Informacije</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="contact-section">
+        <h1> Pošaljite nam poruku I rezervišite vaše proizvode</h1>
+        <form action="#" method="get" id="contactForm">
+       
+            <select id="selectedProducts" name="selectedProducts" required>
+                <option value="1"selected >Izaberite proizvode</option>
+
+                <optgroup label="Monitori">
+                    <option value="2">eM Monitor GH300/144hz/27"</option>
+                    <option value="9">Monitor Valeri 3 in 1</option>
+                </optgroup>
+                <optgroup label="Kućišta">
+                    <option value="8">eM Kucište Viper RGB</option>
+                </optgroup>
+                <optgroup label="Miševi">
+                    <option value="3">eM Miš Sren</option>
+                    <option value="13">eM Miš VenomStrike RGB</option>
+                    <option value="18">eM Miš Mega 16000DPI</option>
+                </optgroup>
+                <optgroup label="Podloge">
+                    <option value="4">eM Podloga Galas XXL/RGB</option>
+                    <option value="14">eM Podloga Sena</option>
+                </optgroup>
+                <optgroup label="Slušalice">
+                    <option value="5">Slušalice Miken MIC/HD/RGB</option>
+                    <option value="17">Slušalice Force MIC/HD/RGB</option>
+                    <option value="20">Slušalice InfinitySonic</option>
+                </optgroup>
+                <optgroup label="Stolice">
+                    <option value="6">eM Stolice Legend</option>
+                </optgroup>
+                <optgroup label="Tastature">
+                    <option value="7">eM Tastatura Tor Mehanička</option>
+                    <option value="15">eM Tastatura Viper Mehanička</option>
+                    <option value="19">eM Tastatura Flidou</option>
+                    <option value="21">eM Tastatura Mokken</option>
+                </optgroup>
+            </select>
+            
+    
+            <input type="text" id="imePrezime" class="contact-form-text" placeholder="Vaše ime i prezime" required>
+            <input type="email" id="email" class="contact-form-text" placeholder="Vaš e-mail" required>
+            <input type="tel" id="telefon" class="contact-form-text" placeholder="Vaš telefon" required>
+            <textarea id="poruka" class="contact-form-text" placeholder="Vaša poruka" required></textarea>
+            <button type="button" class="contact-form-btn" onclick="validateForm()">Pošalji poruku</button>
+    
+        </form>
+    </div>
+    
+    
+          <footer>
+            <p id="futerp">&copy; 2023 Sva prava zadržava prodavnica gejmerske opreme <b>M</b></p>
+        </footer>
+        <script src="Porucivanje.js"></script>
+        <script src="../Href4-PROIZVODI/proizvodi.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Porucivanje.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>eM SHOP ORDER</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="../MEng.html">
+                    <img src="../MSlike/Logo2.png" alt="Your Logo">
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search..."/>
+                <button type="submit" class="search-button">
+                    Search
+                </button>
+            </div>
+            <div class="jezici">
+                <a href="../Href4-PROIZVODI/PorucivanjeProizvodGer.html" id="german-link">
+                    <img src="../IconZemlje/Nemacka.png" id="german" class="jezik" alt="Deutsche Sprache">
+                </a>
+                <a href="../Href4-PROIZVODI/PorucivanjeProizvodEng.html" id="english-link">
+                    <img src="../IconZemlje/UK.png" id="english" class="jezik" alt="Englische Sprache">
+                </a>
+                <a href="../Href4-PROIZVODI/PorucivanjeProizvodi.html" id="serbian-link">
+                    <img src="../IconZemlje/Srbija.png" id="serbian" class="jezik" alt="Serbische Sprache">
+                </a>
+            </div>
+            <div class="language-text">
+                <p id="german-text" class="language-content"></p>
+                <p id="english-text" class="language-content"></p>
+                <p id="serbian-text" class="language-content"></p>
+            </div>
+            <div class="produzni">
+                <p>"Join the M bonus program to unlock bonus M points, reduced minimum spending for free shipping, exclusive benefits, and much more. Join <a href="../Href5-OstaleInformacije/ostaleinfoEng.html" style="color: #007e17;"><b>NOW</b></a>!"</p>
+            </div>
+            <nav>
+                <ul>
+                    <li class="dropdown">About Us
+                        <ul class="dropdown-content">
+                            <li><a href="../Href1-ISTORIJA/istorijaEng.html">History</a></li>
+                            <li><a href="../Href3-ZAPOSLENI/zaposleniEng.html">Employees</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="../Href2-LOKACIJE/LokacijeEng.html">Locations</a>
+                        <ul class="dropdown-content">
+                            <li><a href="../Href2-LOKACIJE/LokacijeEng.html">SC Usce</a></li>
+                            <li><a href="../Href2-LOKACIJE/LokacijeEng.html">SC Galerija</a></li>
+                            <li><a href="../Href2-LOKACIJE/LokacijeEng.html">SC BEO</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="../Href4-PROIZVODI/proizvodiEng.html">Products</a>
+                        <ul class="dropdown-content">
+                            <li><a href="../JeziciProizvodi/ProizvodiSlusaliceENG.html">Headphones</a></li>
+                            <li><a href="../JeziciProizvodi/ProizvodiMisENG.html">Mice</a></li>
+                            <li><a href="../JeziciProizvodi/ProizvodiTastaturaENG.html">Keyboards</a></li>
+                            <li><a href="../JeziciProizvodi/ProizvodiPodlogaENG.html">Mouse Pads</a></li>
+                            <li><a href="../JeziciProizvodi/ProizvodiMonitorENG.html">Monitors</a></li>
+                            <li><a href="../JeziciProizvodi/ProizvodiStoliceENG.html">Chairs</a></li>
+                            <li><a href="../JeziciProizvodi/ProizvodiKucistaENG.html">Cases</a></li>
+                        </ul>
+                    </li>
+                </a>
+                <li><a href="../Href5-OstaleInformacije/ostaleinfoEng.html">Information</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="contact-section">
+        <h1> Send us a message and reserve your products</h1>
+        <form action="../M.html" method="post" id="contactForm">
+            <select id="selectedProducts" name="selectedProducts" required>
+                <option value="1"selected >Select Products</option>
+
+                <optgroup label="Monitors">
+                    <option value="2">eM Monitor GH300/144hz/27"</option>
+                    <option value="9">Monitor Valeri 3 in 1</option>
+                </optgroup>
+                <optgroup label="Cases">
+                    <option value="8">eM Case Viper RGB</option>
+                </optgroup>
+                <optgroup label="Mice">
+                    <option value="3">eM Mouse Sren</option>
+                    <option value="13">eM Mouse VenomStrike RGB</option>
+                    <option value="18">eM Mouse Mega 16000DPI</option>
+                </optgroup>
+                <optgroup label="Mousepads">
+                    <option value="4">eM Mousepad Galas XXL/RGB</option>
+                    <option value="14">eM Mousepad Sena</option>
+                </optgroup>
+                <optgroup label="Headphones">
+                    <option value="5">Headphones Miken MIC/HD/RGB</option>
+                    <option value="17">Headphones Force MIC/HD/RGB</option>
+                    <option value="20">Headphones InfinitySonic</option>
+                </optgroup>
+                <optgroup label="Chairs">
+                    <option value="6">eM Chair Legend</option>
+                </optgroup>
+                <optgroup label="Keyboards">
+                    <option value="7">eM Keyboard Tor Mechanical</option>
+                    <option value="15">eM Keyboard Viper Mechanical</option>
+                    <option value="19">eM Keyboard Flidou</option>
+                    <option value="21">eM Keyboard Mokken</option>
+                </optgroup>
+            </select>
+            <input type="text" id="imePrezime" class="contact-form-text" placeholder="Your Name and Surname" required>
+            <input type="email" id="email" class="contact-form-text" placeholder="Your Email" required>
+            <input type="tel" id="telefon" class="contact-form-text" placeholder="Your Phone" required>
+            <textarea id="poruka" class="contact-form-text" placeholder="Your Message" required></textarea>
+            <button type="button" class="contact-form-btn" onclick="validateForm()">Send Message</button>
+        </form>
+    </div>
+
+    <footer>
+        <p id="futerp">&copy; 2023 All rights reserved, Gaming equipment store <b>M</b></p>
+    </footer>
+    <script src="PorucivanjeEng.js"></script>
+    <script src="../Href4-PROIZVODI/proizvodi.js"></script>
+</body>
+</html>
